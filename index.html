@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Asg arts</title>
+        <title>NumericalZ</title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -18,12 +18,12 @@
                                 <img src="./Assets/Logo-2.png" alt="NumericalZ" width="90" height="80">
                             </h2>
                             <ul>
-                                <li><a href="#">Home</a></li>
+                                <li><a href="./index.html">Home</a></li>
                                 <li class="dropdown">
                                     <a href="#" class="dropbtn">Services &nbsp;<i class="fa fa-caret-down"></i></a>
                                     <div class="dropdown-content">
-                                        <a href="#">BookKeeping</a>
-                                        <a href="#">Management Accounts</a>
+                                        <a href="./bookKeeping.html">BookKeeping</a>
+                                        <a href="managementAccount.html">Management Accounts</a>
                                     </div>
                                 </li>
                                 <li class="dropdown">
@@ -243,17 +243,4 @@
 
 
     </body>
-    <script>
-        var MenuItems = document.getElementById("MenuItems");
-        MenuItems.style.maxHeight="0px";
-        
-        function menutoggle(){
-            if(MenuItems.style.maxHeight == "0px"){
-                MenuItems.style.maxHeight="200px"
-            }
-            else{
-                MenuItems.style.maxHeight="0px"
-            }
-        }
-    </script>
 </html>
