@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Presence</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div >
+                    <nav>
+                        <h2 class="Logo"> 
+                            <img src="./Assets/Logo-2.png" alt="NumericalZ" width="90" height="80">
+                        </h2>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropbtn">Services &nbsp;<i class="fa fa-caret-down"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="./bookKeeping.html">BookKeeping</a>
+                                    <a href="managementAccount.html">Management Accounts</a>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropbtn">Clients &nbsp; <i class="fa fa-caret-down"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="./Partnership.html">Partnership</a>
+                                    <a href="./subContractors.html">Subcontrators</a>
+                                    <a href="./selfAssessment.html">self-Assessment</a>
+                                    <a href="./limitedCompanies.html">Limited Companies</a>
+                                    <a href="./soleTaders.html">Solo Trader</a>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropbtn">Who we are &nbsp; <i class="fa fa-caret-down"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="./aboutUs.html">About Us</a>
+                                    <a href="./ourPresence.html">Our Presence</a>
+                                </div>
+                            </li>
+                            <!--<li><a href="#"> Login</a></li>-->
+                        </ul>
+                        <button type="button" class="getStarted"> Login</button>
+                    </nav>
+                </div>
+       </div>
+    </div>
+        <div class="containe">
+            <div class="row">
+                <div class="col-1">
+                    <h1 class="title">Accountants in Gravesend</h1>
+                </div>
+            </div>
+        </div>
+        <div class="containe">
+            <div class="row">
+                <div class="col-1">
+                    <div id="googleMap" style="width:100%;height:400px;"></div>
+                    <h1>GoogleMaps API key & latatide & longitude needs to be added in thescript</h1>
+                <script>
+                    function myMap() {
+                        var mapProp= {
+                            center:new google.maps.LatLng(51.508742,-0.120850),
+                            zoom:5,
+                        };
+                    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+                    }
+                </script>
+
+                <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <small>
+                        Numericalz Chartered Certified Accountants cater to businesses in Gravesend, Kent along with other neighbouring areas such as Northfleet, Swanscombe, Greenhithe, Dartford, Crayford, Bexley, Erith, Belvedere and other areas in and around South East London. 
+                        <a href="" style="color: aqua;">Click here</a> for directions for our office.
+                    </small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cards  SECTION-->
+        <div class="presence">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="./Assets/Client.jpg">
+                        <h3 style="text-align: center;">Our Clients</h3><br>
+                        <small>
+                            We take care of accounting needs of Individuals, Freelancers, Limited Companies, Subcontractors, Sole Traders, Start-ups, Landlords and Self Employed clients
+                        </small><br><br>
+                        <a href="" class="btn">Read More</a>
+                    </div>
+                    <div class="col-4">
+                        <img src="./Assets/Service.jpg">
+                        <h3 style="text-align: center;">Our Services</h3><br>
+                        <small>
+                            Our team of experts take care of Bookkeeping, Self-Assessment Tax Returns, VAT Returns, Company and Management Accounts, Payroll services and more
+                        </small><br><br>
+                        <a href="" class="btn">Read More</a>
+                    </div>
+                    <div class="col-4">
+                        <img src="./Assets/approch.jpg">
+                        <h3 style="text-align: center;">Our Approach</h3><br>
+                        <small>
+                            We work in partnership with you to create bespoke accounting package that fits the unique requirements of your business. We provide tailored solutions for your goals
+                        </small><br><br>
+                        <a href="" class="btn">Read More</a>
+                    </div>
+                    <div class="col-4">
+                        <img src="./Assets/testimonial.PNG">
+                        <h3 style="text-align: center;">Our Testimonials</h3> <br>
+                        <small>
+                            Our clients define who we are. We take great pride in delivering excellent service above and beyond their expectations. Find what our clients have to say about our services
+                        </small><br><br>
+                        <a href="" class="btn">Read More</a>
+                    </div>
+            </div>
+        </div>
+
+        <!-- Form Design-->
+    <div class="form">
+        <div class="container">
+            <div class="col-1">
+                <div class="form-container">
+                    <form id="SubmitForm" action="">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Contact">
+                        <input type="email" name="" id="" placeholder="Email">
+                        <label for="">Best time to contact you</label> 
+                        
+                        <select name="timing" id="timing">
+                            <option value="">08:00AM - 09:00AM</option>
+                            <option value="">09:00AM - 10:00AM</option>
+                            <option value="">10:00AM - 11:00AM</option>
+                            <option value="">11:00AM - 12:00PM</option>
+                            <option value="">12:00PM - 01:00PM</option>
+                            <option value="">01:00PM - 02:00PM</option>
+                            <option value="">02:00PM - 03:00PM</option>
+                            <option value="">03:00PM - 04:00PM</option>
+                            <option value="">04:00PM - 05:00PM</option>
+                            <option value="">05:00PM - 06:00PM</option>
+                            <option value="">After 6PM</option>
+                          </select>
+                          <br>
+                        <label for="">Comment/Message</label> <textarea name="" id="" cols="85" rows="10"></textarea>
+                        <button type="submit" class="btn">SUBMIT</button>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--     FOOTER-->
+    <div class="footer">
+        <div class="container">
+            <hr>
+            <p class="copyright"> COPYRIGHT © 2019 NUMERICALZ ADVISERS LIMITED ALL RIGHTS RESERVED</p>
+        </div>
+    </div>
+</body>
+</html>
