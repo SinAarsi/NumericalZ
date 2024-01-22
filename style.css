@@ -53,13 +53,20 @@ p {
 }
 
 .header {
-  background-image: url(./Assets/nav-bg.jpg);
+  background-image: url();
 }
 .header .row {
-  margin-top: 70px;
+  margin-top: 10px;
+}
+
+.header .col-2 img {
+  max-width: 100%;
+  padding: 10px 0;
+
 }
 
 .categories {
+  background-color: #dedef1;
   margin: 70px 0;
   max-width: 100%;
 }
@@ -121,8 +128,8 @@ h4 {
 /*        offer          */
 
 .offer {
-  background: radial-gradient(#fff, #ffd6d6);
-  margin-top: 80px;
+  background-image: url(./Assets/bg\ what\ we\ r.jpg);
+  margin-top: 10px;
   padding: 30px 0;
 }
 .col-2 .offer-img {
@@ -135,12 +142,11 @@ small {
 /*    Testimonial    */
 .testimonial {
   padding-top: 100px;
-  
 }
 .testimonial .col-3 {
   text-align: center;
   padding: 40px 20px;
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 0px rgba(11, 11, 66, 0.5);
   cursor: pointer;
   transition: transform 0.5s;
 }
@@ -381,6 +387,7 @@ input:focus {
 
 /* -----------Account Page css------------*/
 
+
 .form-container {
   background: white;
   width: 700px;
@@ -432,6 +439,13 @@ form .btn:focus {
 }
 
 /* ------ WHO we help styles section -----*/
+.whoWeHelp{
+background-image: url(./Assets/bg\ what\ we\ r.jpg);
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  
+}
 .checklist{
   list-style: none;
   padding: 0;
@@ -460,7 +474,7 @@ form .btn:focus {
 
 .checklist .li-item i {
   margin-right: 20px;  
-  color: rgb(255, 136, 1)
+  color: rgb(12, 57, 126)
   
 }
 .li-item a {
@@ -560,7 +574,8 @@ nav ul li a:hover{
 
 /*---------------- BOOKKEEPING PAGE STYLES STARTS--------------------*/
 .bookkeeping-services{
-  margin: 70px 0;
+  margin-top: 15px;
+  margin-bottom: 0px;
   max-width: 100%;
 }
 .bookkeeping-services .container{
@@ -703,7 +718,7 @@ nav ul li a:hover{
 /* ----------------------- Management accounts STARTS--------------------*/
 
 .management-accts{
-  margin: 70px 0;
+  margin: 10px 0;
   max-width: 100%;
   padding: 30px;
 }
@@ -728,6 +743,13 @@ nav ul li a:hover{
 }
 /* ----------------------- Management accounts ENDS--------------------*/
 /* ----------------------- About Us ---------------------------------*/
+.howWeOperate{
+  background-color: #dedef1;
+}
+
+.seniorPartner{
+  background-image: url(./Assets/bg\ what\ we\ r.jpg);
+}
 
 .profile-title {
   text-align: center;
