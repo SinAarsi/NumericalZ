@@ -18,7 +18,7 @@
         <div class="container">
             <div>
                 <nav>
-                    <h2 class=" "Logo"> 
+                    <h2 class="Logo"> 
                         <img src="./Assets/Logo-2.png" alt="NumericalZ" width="90" height="80">
                     </h2>
                     <ul>
@@ -41,25 +41,15 @@
                                 <a href="./soleTaders.html">Solo Trader</a>
                             </div>
                         </li>
-                      <!--   <li class="dropdown">
-                            <a href="#" class="dropbtn">Who we are &nbsp; <i class="fa fa-caret-down"></i></a>
-                            <div class="dropdown-content">
-                                <a href="./aboutUs.html">About Us</a>
-                                <a href="./ourPresence.html">Our Presence</a>
-                            </div>
-                        </li>-->
+                     
                        <li><a href="https://numericalz.smartvault.com/secure/SignIn.aspx?ReturnUrl=%2fusers%2fsecure%2fHome.aspx" class="btn"> Login</a></li>
                     </ul>
-
-                    <!--<button type="button" class="getStarted"> <a href="https://numericalz.smartvault.com/secure/SignIn.aspx?ReturnUrl=%2fusers%2fsecure%2fHome.aspx">Login</a></button> -->
                 </nav>
                 </div>
             </div>
 
         </div>
     </div>
-
-
     <!--- Bookkeeping Services-->
     <div class="bookkeeping-services">
         <div class="container">
@@ -81,28 +71,86 @@
                     <img src="./Assets/exp bookkeeping.jpg">
                     <h2>EXPERIENCED BOOKKEEPING</h2> 
                     <p style="text-align: justify;">
-                        Our bookkeepers have years of bookkeeping experience and have worked with many other clients in your industry. This means we can design a tailor made system that fits the bookkeeping needs of your business. <br>
-                        <br>No more HMRC Penalties, No late VAT returns and no missed deadlines. Save money and time by letting us take care of your bookkeeping.
+                        Our bookkeepers have years of bookkeeping experience and have worked with many other clients in your industry. This means we 
+                        <span id="Bdots">...</span><span id="Bmore">
+                        can design a tailor made system that fits the bookkeeping needs of your business. <br>
+                        <br>No more HMRC Penalties, No late VAT returns and no missed deadlines. Save money and time by letting us take care of your bookkeeping.</span>
                     </p>
+                    <button onclick="eBooking()" id="myBooking">Read more</button>
                 </div>
                 <div class="col-3">
-                    <img src="./Assets/inhouse.PNG"> <br>
+                    <img src="./Assets/inhouse BK.jpg"> <br>
                     <h2>IN-HOUSE BOOKKEEPING</h2> <br>
                     <p style="text-align: justify;">
-                        Our experienced bookkeepers can also provide you with in house bookkeeping in the areas of Northfleet, Gravesend, Dartford, Rochester, Maidstone, Erith, Welling, Thamesmead, South-East London and Kent. Call us today to discuss this service and see how we can be of help.
+                        Our experienced bookkeepers can also provide you with in house bookkeeping in the areas of Northfleet, Gravesend, Dartford, Rochester, 
+                        <span id="inhouse">...</span><span id="inHousemore">
+                        Maidstone, Erith, Welling, Thamesmead, South-East London and Kent. Call us today to discuss this service and see how we can be of help.
+                    </span>
                     </p>
+                    <button onclick="inHouseBooking()" id="myBtn-inhouse">Read more</button>
                 </div>
                 <div class="col-3">
                     <img src="./Assets/24 7.jpg">
                     <h2>24/7 ACCESS TO YOUR RECORDS</h2> 
                     <p style="text-align: justify;">
-                        Provide us with your records via post, via email, online, via data capture app on your phone, drop it at our office in Northfleet or the best, let us arrange collection for you. <br>
-                        <br> We will record your business transactions via Quickbooks and Receipt-bank and give your training and access to your Quickbooks so that you can see your business performance in real-time and make all those important business decisions.
+                        Provide us with your records via post, via email, online, via data capture app on your phone, drop it at our office in Northfleet or the best,
+                        <span id="accessDots">...</span><span id="accessMore"> let us arrange collection for you. <br>
+                        
+                         We will record your business transactions via Quickbooks and Receipt-bank and give your training and access to your Quickbooks so that you can see your business performance in real-time and make all those important business decisions.
+                            </span>
                     </p>
+                    <button onclick="accessRecords()" id="myBtn-access">Read more</button>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        function eBooking() {
+          var dots = document.getElementById("Bdots");
+          var moreText = document.getElementById("Bmore");
+          var btnText = document.getElementById("myBooking");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+          }
+        }
+        function inHouseBooking() {
+          var dots = document.getElementById("inhouse");
+          var moreText = document.getElementById("inHousemore");
+          var btnText = document.getElementById("myBtn-inhouse");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+          }
+        }
+        function accessRecords() {
+          var dots = document.getElementById("accessDots");
+          var moreText = document.getElementById("accessmore");
+          var btnText = document.getElementById("myBtn-access");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+          }
+        }
+        </script>
 
     <!--OUR BOOKKEEPING PROCESS STEP BY STEP-->
     <div class="container">
