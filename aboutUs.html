@@ -9,7 +9,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
         
 </head>
 <body>
@@ -17,28 +16,28 @@
         <div class="container">
             <div >
                 <nav>
-                    <h2 class=" "Logo"> 
+                    <h2 class="Logo"> 
                         <img src="./Assets/Logo-2.png" alt="NumericalZ" width="90" height="80">
                     </h2>
                     <ul>
                         <li><a href="./index.html">Home</a></li>
                         <li><a href="./aboutUs.html">About Us</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropbtn">Services &nbsp;<i class="fa fa-caret-down"></i></a>
-                            <div class="dropdown-content">
+                            <a href="./bookKeeping.html" class="dropbtn">Services</a>
+                            <!--<div class="dropdown-content">
                                 <a href="./bookKeeping.html">BookKeeping</a>
                                 <a href="managementAccount.html">Management Accounts</a>
-                            </div>
+                            </div>-->
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropbtn">Clients &nbsp; <i class="fa fa-caret-down"></i></a>
-                            <div class="dropdown-content">
+                            <a href="./portFolio.html" class="dropbtn">Portfolio</a>
+                            <!--<div class="dropdown-content">
                                 <a href="./Partnership.html">Partnership</a>
                                 <a href="./subContractors.html">Subcontrators</a>
                                 <a href="./selfAssessment.html">Self-Assessment</a>
                                 <a href="./limitedCompanies.html">Limited Companies</a>
                                 <a href="./soleTaders.html">Solo Trader</a>
-                            </div>
+                            </div>-->
                         </li>
                       <!--   <li class="dropdown">
                             <a href="#" class="dropbtn">Who we are &nbsp; <i class="fa fa-caret-down"></i></a>
@@ -55,7 +54,7 @@
                 </div>
        </div>
 </div> 
-<!-- About us-->
+<!-- About us
 <div class="offer">
     <div class="small-container">
         <div class="row">
@@ -95,9 +94,9 @@ function myFunction() {
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!--How we operate -->
-    <div class="howWeOperate">
+ <!--   <div class="howWeOperate">
         <div class="small-container">
             <div class="row">
                 <div class="col-1">
@@ -123,7 +122,89 @@ function myFunction() {
             </div>
         </div>
     </div>
-    
+-->
+
+<div class="team-section">
+    <main class="cd__main">
+        <header>
+          <div class="header-content">
+            <!-- About us-->
+<div class="offer">
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <h1>About Us</h1> <br>
+                <small style="color: aliceblue;"> Numericalz Advisers Limited is a reputed firm of Chartered Certified Accountants. We are based in Kent and cater to individual, contractor and business clients of all sizes. We are a proud member of the ACCA.
+                    Our accountants take pride in providing best-in-class services to clients from various industries. 
+                    <span id="dots">...</span><span id="more">
+                    We deal with businesses in retail, hotel and catering, healthcare, real estate, off licence, construction and engineering, information technology and many more.
+                    With more than 13 years of experience, our professionals are experts in all areas. We specialise in accounting needs of Sole traders, Subcontractors, Self assessment accounts, Personal tax returns, Limited Companies accounts, Bookkeeping, Management Accounts, CIS returns, VAT returns etc.
+                    We are an accredited ACCA firm. ACCA is the professional accountancy body that produces best-qualified and most sought-after accountants. Numericalz diligently follows the professional and ethical standards laid out by the ACCA. Find us on ACCA here. 
+                </span>
+                </small>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+            <h1>Meet a team of experts and innovators who are pioneers in their field</h1> <br><br><br><br>
+          </div>
+        </header>
+        <section>
+          <div class="card-top">
+            <div class="card">
+              <img class="Team-Pic"
+                src="https://images.pexels.com/photos/2811089/pexels-photo-2811089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=11"
+                alt="Alexandra Smith">
+              <h2>Alexandra Smith</h2>
+              <p>Founder and Chief Operations Officer</p>
+            </div>
+            <div class="card">
+              <img class="Team-Pic"
+                src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="John Smith">
+              <h2>John Smith</h2>
+              <p>Founder and Chief Executive Officer</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="Team-Pic"
+              src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Erik Longman">
+            <h2>Erik Longman</h2>
+            <p>Chief Process and Innovation Officer</p>
+          </div>
+          <div class="card">
+            <img class="Team-Pic"
+              src="https://images.pexels.com/photos/2216607/pexels-photo-2216607.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Matthew Foster">
+            <h2>Matthew Foster</h2>
+            <p>Chief Sales Officer</p>
+          </div>
+        </section>
+        <!-- END EDMO HTML (Happy Coding!)-->
+      </main>
+</div>
     <div class="seniorPartner">
         <div class="small-container">
             <div class="row">
@@ -142,8 +223,13 @@ function myFunction() {
             </div>
         </div>
     </div>
+    <div class="teammate">
+        <div class="small-container">
+
+        </div>
+    </div>
     
-    <!-- Form Design-->
+    <!-- Form Design
     <div class="form">
         <div class="container">
             <div class="col-1">
@@ -177,7 +263,7 @@ function myFunction() {
             </div>
         </div>
     </div>
-        
+        -->
     </div>
         <!--     FOOTER-->
         <div class="footer">

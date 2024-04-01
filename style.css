@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   padding: 0;
@@ -40,7 +42,7 @@ p {
 }
 .btn {
   display: inline-block;
-  background: #ff523b;
+  background: #ff931e;
   color: #fff;
   padding: 8px 30px;
   margin: 30px 0;
@@ -103,7 +105,7 @@ p {
 }
 .title::after {
   content: "";
-  background: #ff523b;
+  background: #ff931e;
   width: 80px;
   height: 5px;
   border-radius: 5px;
@@ -120,7 +122,7 @@ h4 {
   font-size: 14px;
 }
 .rating .fa {
-  color: #ff523b;
+  color: #ff931e;
 }
 .col-4:hover {
   transform: translateY(-5px);
@@ -158,7 +160,7 @@ small {
   transform: translateY(-10px);
 }
 .fa.fa-quote-left {
-  color: #ff523b;
+  color: #ff931e;
   font-size: 34px;
 }
 
@@ -173,15 +175,15 @@ small {
   font-size: 16px;
 }
 
-/* footer */
+/* footer footer BG - 1f2c3a */ 
 .footer {
-  background: #000;
-  color: #8a8a8a;
+  background: #1f2c3a;
+  color: #ffffff;
   font-size: 14px;
   padding: 60px 0 20px;
 }
 .footer:p {
-  color: #8a8a8a;
+  color: #ffffff;
 }
 .footer h3 {
   color: #fff;
@@ -220,7 +222,7 @@ ul {
 
 .footer hr {
   border: none;
-  background: #b5b5b5;
+  background: #ffffff;
   height: 1px;
   margin: 20px 0;
 }
@@ -276,7 +278,7 @@ ul {
   margin: 100px auto 50px;
 }
 select {
-  border: 1px solid #ff523b;
+  border: 1px solid #ff931e;
   padding: 5px;
 }
 select:focus {
@@ -287,7 +289,7 @@ select:focus {
 }
 .page-btn span {
   display: inline-block;
-  border: 1px solid orangered;
+  border: 1px solid ff931e;
   margin-left: 10px;
   width: 40px;
   height: 40px;
@@ -296,7 +298,7 @@ select:focus {
   cursor: pointer;
 }
 .page-btn span:hover {
-  background: #ff523b;
+  background: #ff931e;
   color: white;
 }
 
@@ -326,13 +328,13 @@ select:focus {
   padding-left: 10px;
   font-size: 20px;
   margin-right: 10px;
-  border: 1px solid #ff523b;
+  border: 1px solid #ff931e;
 }
 input:focus {
   outline: none;
 }
 .single-product .fa {
-  color: #ff523b;
+  color: #ff931e;
   margin-left: 10px;
 }
 
@@ -348,7 +350,7 @@ input:focus {
 /*------CONTACT FORM -------------------------*/
 .contact-form .icon {
   padding: 20px;
-  background: #ff523b;
+  background: #ff931e;
   color: white;
   min-width: 50px;
   text-align: center;
@@ -368,10 +370,10 @@ input:focus {
   outline: none;
 }
 .contact-form .input-field:focus {
-  border: 2px solid #ff523b;
+  border: 2px solid #ff931e;
 }
 .contact-form .btn {
-  background: #ff523b;
+  background: #ff931e;
   color: white;
   padding: 15px 20px;
   border: none;
@@ -598,30 +600,52 @@ nav ul li a:hover{
   color: white;
   padding: 20px;
 }
+.service-title {
+  text-align: center;
+  margin: 0 30px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+.service-title::after {
+  content: "";
+  background: #ff931e;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 /* ---------------------- CARds section --------------------*/
 
 .bookKeeping-cards {
-  padding-top: 100px;
-  
+  padding-top: 50px;
 }
 .bookKeeping-cards .col-3 {
-  text-align: center;
+  text-align: left;
   padding: 40px 20px;
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
   transition: transform 0.5s;
 }
 .bookKeeping-cards .col-3:hover {
   transform: translateY(-10px);
 }
 .bookKeeping-cards .col-3 h2 {
-  font-weight: 700;
+  font-weight: 600;
+  text-align: center;
   color: #302f2f;
   font-size: 16px;
 }
+.bookKeeping-cards .col-3 p {
+  font-weight: 300;
+  color: #302f2f;
+  font-size: 13px;
+}
 
-/* ---------------------- Accordian in html, CSS ------*/
+/* ---------------------- Accordian in html, CSS ------
 .accordion{
   max-width: 930px;
   width: 100%;
@@ -685,7 +709,7 @@ nav ul li a:hover{
   font-weight: 400;
   padding: 0 15px;
   transition: all 0.2s linear;
-}
+} */
 /*---------------- BOOKKEEPING PAGE STYLES ENDS--------------------*/
 /* -------------------Bookkeeping stress free START----------------------*/
 .bookkeeping-stress{
@@ -715,32 +739,7 @@ nav ul li a:hover{
   text-shadow: 1px 1px #ffffff;
 }
 /* -------------------Bookkeeping stress free ENDS----------------------*/
-/* ----------------------- Management accounts STARTS--------------------*/
 
-.management-accts{
-  margin: 10px 0;
-  max-width: 100%;
-  padding: 30px;
-}
-.management-accts .container{
-  background-image: url(./Assets/assbg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-.management-accts .col-1 h1{
-  padding: 90px;
-}
-
-.management-accts-title{
-  text-align: center;
-  margin: 0 auto 200px;
-  position: relative;
-  line-height: 80px;
-  color: #302f2f;
-}
 /* ----------------------- Management accounts ENDS--------------------*/
 /* ----------------------- About Us ---------------------------------*/
 #more {display: none;}
@@ -748,9 +747,7 @@ nav ul li a:hover{
   background-color: #dedef1;
 }
 
-.seniorPartner{
-  background-image: url(./Assets/bg\ what\ we\ r.jpg);
-}
+
 
 .profile-title {
   text-align: center;
@@ -793,40 +790,102 @@ nav ul li a:hover{
   cursor: pointer;
   transition: all 0.5s ease;
 }
-/*------------------ About us Ends
-/* ------------------------ our Presence section starts -----------------*/
 
-/*    presense    */
-.presence {
-  padding-top: 100px;
-  
+
+.cd__main {
+  background: #1f2c3a !important;
+  font-family: "Nunito", sans-serif;
+  position: relative;
+  overflow-x: hidden;
 }
-.presence .col-4 {
+
+.Team-Pic {
+  border-radius: 50%;
+  width: clamp(100px, 40vw, 120px);
+  height: clamp(100px, 40vw, 120px);
+  object-fit: cover;
+  object-position: top;
+}
+header {
+  background: linear-gradient(to top, #1f2c3a 0%, #2f3c4742 100%), url("https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat 50% 50%/cover;
+  width: 100%;
+  min-height: 25em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 40px 20px;
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: transform 0.5s;
+  color: #fff;
 }
-.presence .col-4 img {
-  width: 50px;
+header .header-content {
+  width: min(37.5em, 90%);
+  margin-top: 5em;
+  position: relative;
+  z-index: 10;
 }
-.presence .col-4:hover {
-  transform: translateY(-10px);
+header .header-content span {
+
+}
+header .header-content h1 {
+  font-size: clamp(1.5rem, 1.375rem + 0.625vw, 2rem);
+  font-weight: 700;
 }
 
-.col-4:small {
-  font-size: 12px;
-  margin: 12px 0;
-  color: #777;
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 75em;
+  margin-inline: auto;
+  gap: 0.938rem;
+  transform: translatey(-3em);
+  position: relative;
+  z-index: 10;
 }
-.presence .col-4 h3 {
-  font-weight: 600;
-  color: #555;
-  font-size: 16px;
+section .card {
+  padding: 1.875em 1.25em;
+  max-width: 18.75rem;
+  width: 90%;
+  height: 16.875rem;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  text-align: center;
+  position: relative;
+}
+section .card::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  z-index: -1;
+  border: 0.125rem solid transparent;
+  background: linear-gradient(45deg, #1e272e, #48627a) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
+section .card h2 {
+  color: #fff;
+  letter-spacing: 0.05rem;
+  font-size: clamp(1rem, 0.9375rem + 0.3125vw, 1.25rem);
+  margin-top: 0.625em;
+  margin-bottom: 0.188em;
+}
+section .card p {
+  color: #afafaf;
+  font-size: clamp(0.8rem, 0.7625rem + 0.1875vw, 0.95rem);
+}
+section .card-top {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 0.938rem;
+  flex-wrap: wrap;
 }
 
-.save{
-  color: #ff523b;
-  font-size: 34px;
-}
+/*------------------ About us Ends */
+
